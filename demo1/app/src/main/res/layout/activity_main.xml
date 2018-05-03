@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nen"
+    android:gravity="center">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:background="@drawable/hinhchunhat"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_vertical"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:drawableLeft="@drawable/logo_0009_maxresdefault"
+            android:textSize="45dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#ec0505"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edttaikhoan"
+            android:background="@drawable/edit"
+            android:hint="Username"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_logo_0001_ic_user_icon"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtmatkhau"
+            android:background="@drawable/edit"
+            android:hint="Password"
+            android:password="true"
+            android:drawableLeft="@drawable/logo_0006_ic_pass_icon"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvquenmatkhau"
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:text="Forgot password ?"
+            android:textColor="#dddb29"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btndangnhap"
+            android:background="@drawable/shadow"
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
